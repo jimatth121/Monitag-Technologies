@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 const Footer = () => {
   const navigate = useNavigate();
   return (
-    <div className="pt-20 mb-8 bg-[#fafbfd]">
+    <div className="pt-20 pb-8 bg-[#fafbfd]">
       <div className="flex justify-center  items-center">
         <img src={Minilogo2} alt="minlogo" className="w-[200px]" />
       </div>
