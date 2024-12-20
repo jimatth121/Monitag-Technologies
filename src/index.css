@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PoppinsLight";
+  src: url("/public/fonts/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("/public/fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("/public/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: url("/public/fonts/Poppins-SemiBold.ttf");
+}
+
+.m_71ea3ab1 {
+  position: absolute !important;
+  background-color: rgba(122, 119, 119, 0.8) !important;
+  bottom: 100px !important;
+  width: 100px !important;
+  left: 90% !important;
+  /* justify-content: flex-end !important; */
+  padding: 12px;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .m_71ea3ab1 {
+    left: 15px !important;
+    bottom: 20px !important;
+  }
+}
+
+.text1 {
+  font-size: clamp(1rem, 0.895rem + 0.6723vw, 1.5rem) !important;
+}
+.text2 {
+  font-size: clamp(0.8125rem, 0.7841rem + 0.101vw, 0.875rem) !important;
+}
+
+.header1 {
+  font-size: clamp(1.5rem, 0.5909rem + 3.2323vw, 3.5rem) !important;
+}
+.header-36 {
+  font-size: clamp(1.25rem, 0.7955rem + 1.6162vw, 2.25rem) !important;
+}
+.header2 {
+  font-size: clamp(1.125rem, 1.0462rem + 0.5042vw, 1.5rem) !important;
+}
+
+.logo-width {
+  width: clamp(6.25rem, 5.1996rem + 6.7227vw, 11.25rem) !important;
+}

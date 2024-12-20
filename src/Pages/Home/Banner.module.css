@@ -1,0 +1,16 @@
+.indicator {
+  width: 10px !important;
+  height: 10px !important;
+  transition: width 250ms ease;
+
+  transition: width 250ms ease;
+  /* position: absolute; */
+  /* right: 200px; */
+  /* bottom: 100px; */
+  /* width: 400px;  */
+
+  &[data-active] {
+    width: 50px !important;
+    background-color: #007bff !important;
+  }
+}

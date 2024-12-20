@@ -1,0 +1,4 @@
+.image-height {
+  height: clamp(37.5rem, 36.187rem + 8.4034vw, 43.75rem) !important;
+  /* background-color: red; */
+}
