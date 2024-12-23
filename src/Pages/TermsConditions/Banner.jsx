@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
-    <div className="h-dvh relative">
-      <p className="absolute bottom-[20%] left-1/2 transform -translate-x-1/2 font-PoppinsSemiBold header1 text-white text-center  w-full max-w-[800px] ">
+    <div className="h-[70vh] relative">
+      <p className="absolute bottom-[30%] left-1/2 transform -translate-x-1/2 font-PoppinsSemiBold header1 text-white text-center  w-full max-w-[800px] ">
         Terms and Conditions
       </p>
       <img
