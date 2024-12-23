@@ -70,10 +70,8 @@ const ValueCard = ({ data }) => {
       <div className="bg-[#f3f9fc] pb-8">
         <img src={data.image} alt="valye image" className="w-full" />
         <div className="px-5 mt-4">
-          <p className=" font-PoppinsRegular font-bold mb-1 text1">
-            {data.title}
-          </p>
-          <p className=" font-PoppinsLight text1 ">{data.body}</p>
+          <p className=" font-PoppinsRegular  mb-1 text1">{data.title}</p>
+          <p className=" font-PoppinsLight text14 ">{data.body}</p>
         </div>
       </div>
     </>

@@ -18,9 +18,9 @@ const Launched = () => {
             Make social payments, choose standard or confidential transfers,
             grow your savings and purchase e-Vouchers.
           </p>
-          <p className="flex gap-3 text-white text2 mt-2">
+          <p className="flex gap-3 text-white text2 my-6">
             LEARN MORE
-            <FaRegArrowAltCircleRight color="white" size={25} />
+            <FaRegArrowAltCircleRight color="white" size={20} />
           </p>
 
           <div className="flex gap-6 mt-4">

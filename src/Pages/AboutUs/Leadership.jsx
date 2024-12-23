@@ -50,7 +50,7 @@ const ProfileCard = ({ data }) => {
       <div className="">
         <img src={data.image} alt="image" className="w-full " />
         <p className="  font-PoppinsRegular text1 mt-3">{data.name}</p>
-        <p className=" font-PoppinsLight text2">{data.role}</p>
+        <p className=" font-PoppinsLight text14">{data.role}</p>
       </div>
     </>
   );

@@ -120,7 +120,7 @@ const Development = () => {
       </div>
 
       <div className=" ">
-        <div className="grid grid-cols-1 lg:grid-cols-3  py-8 px-3 lg:px-10  gap-x-8  bg-[#F6F8FA]">
+        <div className="grid grid-cols-1 lg:grid-cols-3 py-10 md:py-14 px-4 lg:px-10  gap-x-8  bg-[#F6F8FA]">
           {data02.map((data, index) => (
             <TextCard key={index} data={data} />
           ))}
@@ -153,9 +153,9 @@ export default Development;
 
 const TextCard = ({ data }) => {
   return (
-    <div className=" py-3 lg:py-6">
+    <div className=" py-4 lg:pb-12 max-w-[400px] w-full">
       <p className=" font-PoppinsRegular header2  fon  ">{data?.title}</p>
-      <p className=" font-PoppinsLight text1 text-[#b9b9b9] font-light">
+      <p className=" font-PoppinsLight text14 text-[#b9b9b9] font-light">
         {data?.body}
       </p>
     </div>

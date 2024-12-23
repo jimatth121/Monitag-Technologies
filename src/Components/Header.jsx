@@ -32,8 +32,8 @@ export function Header() {
               to="aboutus"
               className={({ isActive }) =>
                 isActive
-                  ? `${classes.link} ${classes.linkActive}  font-PoppinsSemiBold `
-                  : classes.link
+                  ? `${classes.link} ${classes.linkActive}   `
+                  : `${classes.link}  font-PoppinsLight`
               }
             >
               ABOUT US
@@ -43,8 +43,8 @@ export function Header() {
               to="news"
               className={({ isActive }) =>
                 isActive
-                  ? `${classes.link} ${classes.linkActive}  font-PoppinsSemiBold `
-                  : classes.link
+                  ? `${classes.link} ${classes.linkActive}   `
+                  : `${classes.link}  font-PoppinsLight`
               }
             >
               NEWS & RESOURCES
@@ -54,8 +54,8 @@ export function Header() {
               to="careers"
               className={({ isActive }) =>
                 isActive
-                  ? `${classes.link} ${classes.linkActive}  font-PoppinsSemiBold `
-                  : classes.link
+                  ? `${classes.link} ${classes.linkActive}   `
+                  : `${classes.link}  font-PoppinsLight`
               }
             >
               CAREERS
@@ -96,7 +96,7 @@ export function Header() {
               className={({ isActive }) =>
                 isActive
                   ? `${classes.link2} ${classes.linkActive2}`
-                  : classes.link2
+                  : `${classes.link2}  font-PoppinsLight`
               }
             >
               Home
@@ -107,7 +107,7 @@ export function Header() {
               className={({ isActive }) =>
                 isActive
                   ? `${classes.link2} ${classes.linkActive2}`
-                  : classes.link2
+                  : `${classes.link2}  font-PoppinsLight`
               }
             >
               ABOUT US
@@ -119,7 +119,7 @@ export function Header() {
               className={({ isActive }) =>
                 isActive
                   ? `${classes.link2} ${classes.linkActive2}`
-                  : classes.link2
+                  : `${classes.link2}  font-PoppinsLight`
               }
             >
               NEWS & RESOURCES
@@ -131,7 +131,7 @@ export function Header() {
               className={({ isActive }) =>
                 isActive
                   ? `${classes.link2} ${classes.linkActive2}`
-                  : classes.link2
+                  : `${classes.link2}  font-PoppinsLight`
               }
             >
               CAREERS
