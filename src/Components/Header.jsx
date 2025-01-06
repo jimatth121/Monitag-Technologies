@@ -14,7 +14,7 @@ export function Header() {
     window.scrollTo({ top: 0 });
   }, [location]);
   return (
-    <Box className="bg-[rgba(0,0,0,0.4)] backdrop-blur-md text-white lg:px-32 py-3 fixed z-50 w-full">
+    <Box className="bg-[rgba(0,0,0,0.4)] backdrop-blur-md text-white lg:px-32 md:py-3 fixed z-50 w-full">
       <header className={classes.header}>
         <Group justify="space-between" h="100%">
           <NavLink to={"/"}>
