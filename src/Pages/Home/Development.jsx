@@ -20,7 +20,7 @@ const Development = () => {
     },
     {
       title: "Savings",
-      body: "Take control of your savings with flexible options that offer interest.",
+      body: "Take control of your savings with flexible long and short-term options.",
     },
     {
       title: "Real-Time Insights",
@@ -71,7 +71,7 @@ const Development = () => {
               Monitag Digital Wallet
             </p>
             <p className=" font-PoppinsLight text1 text-white">
-              A secure, all-in-one digital wallet empowering users to store
+              A secure all-in-one digital wallet empowering users to store
               funds, manage savings, make payments, and handle multiple
               currencies.
             </p>
@@ -129,7 +129,7 @@ const Development = () => {
 
       <div className=" py-16">
         <p className=" font-PoppinsRegular header2 text-center">
-          Monitag Technologies Mission
+          MONITAG TECHNOLOGIES MISSION
         </p>
         <p className=" font-PoppinsLight text1 text-center mt-2 text-[#b9b9b9]">
           To create financial solutions that empower individuals and
@@ -139,7 +139,7 @@ const Development = () => {
 
       <div className="">
         <p className=" font-PoppinsRegular header2 text-center">
-          Monitag Technologies VISION
+          MONITAG TECHNOLOGIES VISION
         </p>
         <p className=" font-PoppinsLight text1 text-center mt-2 text-[#b9b9b9]">
           To be the leading catalyst for financial innovation in Africa.
@@ -153,7 +153,7 @@ export default Development;
 
 const TextCard = ({ data }) => {
   return (
-    <div className=" py-4 lg:pb-12 max-w-[400px] w-full">
+    <div className=" py-4 lg:pb-12 max-w-[450px] w-full">
       <p className=" font-PoppinsRegular header2  fon  ">{data?.title}</p>
       <p className=" font-PoppinsLight text14 text-[#b9b9b9] font-light">
         {data?.body}

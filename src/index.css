@@ -72,5 +72,34 @@
 }
 
 .fadeIn {
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.slick-dots {
+  position: absolute !important;
+  right: 200px !important;
+  bottom: 30px !important;
+  width: 400px !important;
+  z-index: 1000 !important;
+  background-color: rgba(122, 119, 119, 0.8) !important;
+  width: 130px !important;
+  border-radius: 6px !important;
+  /* padding: 3px !important; */
+  padding-bottom: 6px !important;
+}
+
+.slick-dots li button::before {
+  width: 20px !important;
+  height: 20x !important;
+  border-radius: 100% !important;
+  transition: width 250ms ease !important;
+  font-size: 16px !important;
+  color: white !important;
+}
+
+@media (max-width: 768px) {
+  .slick-dots {
+    left: 20px !important;
+    right: auto !important;
+  }
 }

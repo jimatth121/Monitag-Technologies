@@ -20,7 +20,7 @@ export function Header() {
           <NavLink to={"/"}>
             <img
               // onClick={() => handleNavigation("/")}
-              src="https://res.cloudinary.com/dax11nwlt/image/upload/v1734438614/cld-sample-4.png"
+              src="https://res.cloudinary.com/dax11nwlt/image/upload/v1737296048/monitagcolorlogo_oqikga.png"
               alt="logo"
               className="logo-width cursor-pointer"
             />
@@ -79,7 +79,7 @@ export function Header() {
         padding="md"
         title={
           <img
-            src="https://res.cloudinary.com/dax11nwlt/image/upload/v1734677320/samples/logo.png"
+            src="https://res.cloudinary.com/dax11nwlt/image/upload/v1737296048/monitagcolorlogo_oqikga.png"
             alt="logo"
             className="logo-width cursor-pointer"
           />

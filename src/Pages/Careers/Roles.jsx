@@ -8,34 +8,6 @@ const Roles = () => {
       title: "Accounting Manager",
       role: "Financial Control Remote (Nigeria)",
     },
-    {
-      title: "Accounting Manager",
-      role: "Financial Control Remote (Nigeria)",
-    },
-    {
-      title: "Accounting Manager",
-      role: "Financial Control Remote (Nigeria)",
-    },
-    {
-      title: "Accounting Manager",
-      role: "Financial Control Remote (Nigeria)",
-    },
-    {
-      title: "Accounting Manager",
-      role: "Financial Control Remote (Nigeria)",
-    },
-    {
-      title: "Accounting Manager",
-      role: "Financial Control Remote (Nigeria)",
-    },
-    {
-      title: "Accounting Manager",
-      role: "Financial Control Remote (Nigeria)",
-    },
-    {
-      title: "Accounting Manager",
-      role: "Financial Control Remote (Nigeria)",
-    },
   ];
   return (
     <div className="max-w-[900px] w-full mx-auto px-6 md:px-0">
@@ -60,14 +32,18 @@ const Roles = () => {
         ))}
       </div>
 
-      <div className="mb-10 flex justify-center items-center gap-2 mt-24">
-        <button className=" bg-[#f3f9ff] text-[#008cff] p-4 rounded px-5">
-          1
-        </button>
-        <button className="px-5">2</button>
-        <button className="px-5">3</button>
-        <button className="px-5">Prev</button>
-        <button className="px-5">Next</button>
+      <div className="mb-10 mt-10  md:mt-16 max-w-[700px] mx-auto justify-center  px-3">
+        <p className=" font-PoppinsRegular text14 text-center ">
+          Join our team of exceptional people making wealth accessible to this
+          generation and the next. Join our team of exceptional people making
+          wealth accessible to this generation and the next. Join our team of
+          exceptional people making wealth accessible to this generation and the
+          next. Join our team of exceptional people making wealth accessible to
+          this generation and the next.
+        </p>
+        <p className="font-PoppinsSemiBold text14 text-center text-gray-400 mt-3">
+          Hiring Manager
+        </p>
       </div>
     </div>
   );

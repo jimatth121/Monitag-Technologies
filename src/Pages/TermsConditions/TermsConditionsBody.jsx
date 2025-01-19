@@ -3,7 +3,7 @@ const TermsConditionsBody = () => {
     <div className="max-w-[900px] w-full mx-auto px-6 md:px-0 my-20">
       <div>
         <p className=" font-PoppinsRegular text14  text-[#b9b9b9] mb-10">
-          EFFECTIVE DATE: DECEMBER 5TH, 2024
+          DATE: DECEMBER 5TH, 2024
         </p>
         <div>
           <p className=" font-PoppinsMedium text14 my-4 md:my-6">

@@ -15,13 +15,22 @@ const Footer = () => {
         <img src={Minilogo2} alt="minlogo" className="w-[200px]" />
       </div>
       <div className="flex   lg:flex-row flex-col justify-center gap-3 lg:gap-10 mt-5">
-        <button className="text2  font-PoppinsRegular text-[#b9b9b9]">
+        <button
+          onClick={() => navigate("/aboutus")}
+          className="text2  font-PoppinsRegular text-[#b9b9b9]"
+        >
           ABOUT
         </button>
-        <button className="text2 font-PoppinsRegular text-[#b9b9b9] ">
+        <button
+          onClick={() => navigate("/careers")}
+          className="text2 font-PoppinsRegular text-[#b9b9b9] "
+        >
           CAREERS
         </button>
-        <button className="text2 font-PoppinsRegular text-[#b9b9b9]">
+        <button
+          onClick={() => navigate("/news")}
+          className="text2 font-PoppinsRegular text-[#b9b9b9]"
+        >
           NEWS & RESOURCES
         </button>
         <button
