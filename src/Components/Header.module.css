@@ -58,7 +58,7 @@
   position: relative;
   padding-bottom: 5px;
   text-decoration: none;
-  color: white;
+  color: #048cfc;
   transition: color 0.3s;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .linkActive {
-  color: white;
+  color: #048cfc;
   font-weight: bold;
 }
 

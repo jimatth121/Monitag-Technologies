@@ -71,9 +71,9 @@
   }
 }
 
-.fadeIn {
+/* .fadeIn {
   animation: fadeIn 1s ease-in-out;
-}
+} */
 
 .slick-dots {
   position: absolute !important;

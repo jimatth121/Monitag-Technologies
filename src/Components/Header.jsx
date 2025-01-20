@@ -14,7 +14,7 @@ export function Header() {
     window.scrollTo({ top: 0 });
   }, [location]);
   return (
-    <Box className="bg-[rgba(0,0,0,0.4)] backdrop-blur-md text-white lg:px-32 md:py-3 fixed z-50 w-full">
+    <Box className="bg-[rgba(255,255,255,0.5)] backdrop-blur-md text-[#048cfc] lg:px-32 md:py-3 fixed z-50 w-full">
       <header className={classes.header}>
         <Group justify="space-between" h="100%">
           <NavLink to={"/"}>
@@ -26,7 +26,7 @@ export function Header() {
             />
           </NavLink>
 
-          <Group h="100%" gap={50} visibleFrom="sm" className="text-white">
+          <Group h="100%" gap={50} visibleFrom="sm" className="text-[#048cfc]">
             {/* Use NavLink for navigation buttons */}
             <NavLink
               to="aboutus"
