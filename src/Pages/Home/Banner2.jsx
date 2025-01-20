@@ -10,6 +10,7 @@ function Banner2() {
     slidesToScroll: 1,
     waitForAnimate: false,
     autoplay: true,
+    autoplaySpeed: 9000,
   };
   return (
     <div className="slider-container relative  h-[100vh]  overflow-hidden">
@@ -17,7 +18,7 @@ function Banner2() {
         <div className="h-[100vh] relative">
           <div className="absolute bottom-[60px]  lg:left-20  pl-4 lg:pl-0  max-w-[638px] w-full">
             <p className=" font-PoppinsSemiBold text-white text-[24px] sm:ml-[20px] md:ml-[20px] header2">
-              Empowering Financial Journeys, Everywhere
+              Empowering Financial Journeys Everywhere
             </p>
             <p className=" font-PoppinsLight text-[24px] text-white sm:ml-[20px] md:ml-[20px] text1">
               We are committed to empowering individuals and communities in
@@ -71,6 +72,7 @@ function Banner2() {
             src="https://res.cloudinary.com/dax11nwlt/image/upload/v1734454197/cld-sample-3.jpg"
             alt="slider01"
           />
+
           <img
             className="  w-full  object-cover h-full  md:hidden fadeIn"
             src="https://res.cloudinary.com/dax11nwlt/image/upload/v1734600214/samples/man-on-a-street.jpg"

@@ -128,7 +128,7 @@ const Development = () => {
       </div>
 
       <div className=" py-16">
-        <p className=" font-PoppinsRegular header2 text-center">
+        <p className=" font-PoppinsSemiBold header2 text-center">
           MONITAG TECHNOLOGIES MISSION
         </p>
         <p className=" font-PoppinsLight text1 text-center mt-2 text-[#b9b9b9]">
@@ -138,7 +138,7 @@ const Development = () => {
       </div>
 
       <div className="">
-        <p className=" font-PoppinsRegular header2 text-center">
+        <p className=" font-PoppinsSemiBold header2 text-center">
           MONITAG TECHNOLOGIES VISION
         </p>
         <p className=" font-PoppinsLight text1 text-center mt-2 text-[#b9b9b9]">
