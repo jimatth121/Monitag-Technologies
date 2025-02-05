@@ -4,7 +4,7 @@ const Development = () => {
   const data01 = [
     {
       title: "Instant Peer-to-Peer Transfers",
-      body: "Send and receive money from friends, families or clients with ease.",
+      body: "Send and receive money from friends, family or clients with ease.",
     },
     {
       title: "QR Code Payments",

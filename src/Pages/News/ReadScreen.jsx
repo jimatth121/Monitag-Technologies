@@ -53,49 +53,49 @@ const ReadScreen = ({ setIsRead }) => {
 
         <div className=" mt-4">
           <p className="font-PoppinsLight text14  break-words text-justify mb-4 text-[#979797]">
-            At My Monitag.com and Monitag Technologies.com, we respect your
+            At mymonitag.com and monitagtechnologies.com, we respect your
             privacy and are committed to protecting your personal data. This
             Privacy Policy explains how we collect, use, and safeguard
             information in compliance with the Nigeria Data Protection
             Regulation NDPR and applicable global standards like GDPR.
           </p>
           <p className="font-PoppinsLight text14  break-words text-justify mb-4 text-[#979797]">
-            At My Monitag.com and Monitag Technologies.com, we respect your
+            At mymonitag.com and monitagtechnologies.com, we respect your
             privacy and are committed to protecting your personal data. This
             Privacy Policy explains how we collect, use, and safeguard
             information in compliance with the Nigeria Data Protection
             Regulation NDPR and applicable global standards like GDPR.
           </p>
           <p className="font-PoppinsLight text14  break-words text-justify mb-4 text-[#979797]">
-            At My Monitag.com and Monitag Technologies.com, we respect your
+            At mymonitag.com and monitagtechnologies.com, we respect your
             privacy and are committed to protecting your personal data. This
             Privacy Policy explains how we collect, use, and safeguard
             information in compliance with the Nigeria Data Protection
             Regulation NDPR and applicable global standards like GDPR.
           </p>
           <p className="font-PoppinsLight text14  break-words text-justify mb-4 text-[#979797]">
-            At My Monitag.com and Monitag Technologies.com, we respect your
+            At mymonitag.com and monitagtechnologies.com, we respect your
             privacy and are committed to protecting your personal data. This
             Privacy Policy explains how we collect, use, and safeguard
             information in compliance with the Nigeria Data Protection
             Regulation NDPR and applicable global standards like GDPR.
           </p>
           <p className="font-PoppinsLight text14  break-words text-justify mb-4 text-[#979797]">
-            At My Monitag.com and Monitag Technologies.com, we respect your
+            At mymonitag.com and monitagtechnologies.com, we respect your
             privacy and are committed to protecting your personal data. This
             Privacy Policy explains how we collect, use, and safeguard
             information in compliance with the Nigeria Data Protection
             Regulation NDPR and applicable global standards like GDPR.
           </p>
           <p className="font-PoppinsLight text14  break-words text-justify mb-4 text-[#979797]">
-            At My Monitag.com and Monitag Technologies.com, we respect your
+            At mymonitag.com and monitagtechnologies.com, we respect your
             privacy and are committed to protecting your personal data. This
             Privacy Policy explains how we collect, use, and safeguard
             information in compliance with the Nigeria Data Protection
             Regulation NDPR and applicable global standards like GDPR.
           </p>
           <p className="font-PoppinsLight text14  break-words text-justify mb-4 text-[#979797]">
-            At My Monitag.com and Monitag Technologies.com, we respect your
+            At mymonitag.com and monitagtechnologies.com, we respect your
             privacy and are committed to protecting your personal data. This
             Privacy Policy explains how we collect, use, and safeguard
             information in compliance with the Nigeria Data Protection
