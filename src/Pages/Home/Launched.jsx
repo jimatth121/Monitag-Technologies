@@ -29,7 +29,7 @@ const Launched = () => {
           </div>
         </div>
         <img
-          className="absolute bottom-0 overflow-hidden right-0 "
+          className="absolute bottom-0 overflow-hidden right-0   "
           src="https://res.cloudinary.com/dax11nwlt/image/upload/v1734518766/samples/dessert-on-a-plate.png"
           alt="handphone"
         />

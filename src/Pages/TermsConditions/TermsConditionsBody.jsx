@@ -151,7 +151,7 @@ const TermsConditionsBody = () => {
           <p className=" font-PoppinsMedium text14 my-4 md:my-6">Contact Us</p>
           <p className="text14  font-PoppinsLight text-[#b9b9b9]">
             For questions about these Terms, contact us at: Email:
-            support@[mymonitag.com] / support@[monitagtechnologies.com]
+            support@mymonitag.com / support@monitagtechnologies.com
           </p>
         </div>
       </div>

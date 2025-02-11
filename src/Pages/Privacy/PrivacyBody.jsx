@@ -162,7 +162,7 @@ const PrivacyBody = () => {
           <p className=" font-PoppinsMedium text14 my-4 md:my-6">Contact Us</p>
           <p className="text14  font-PoppinsLight text-[#b9b9b9]">
             For privacy inquiries or to exercise your rights, contact us at:
-            Email: privacy@[mymonitag.com] / privacy@[monitagtechnologies.com]
+            Email: privacy@[mymonitag.com] / product@monitagtechnologies.com
           </p>
         </div>
       </div>

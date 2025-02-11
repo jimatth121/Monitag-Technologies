@@ -8,11 +8,12 @@ const Banner = () => {
     <div>
       <Carousel
         plugins={[autoplay.current]}
-        onMouseEnter={autoplay.current.stop}
-        onMouseLeave={autoplay.current.reset}
-        // loop
+        onMouseEnter={autoplay.current.play}
+        onMouseLeave={autoplay.current.play}
+        loop
         withIndicators
         withControls={false}
+        infinite
         classNames={classes}
       >
         <Carousel.Slide className=" h-dvh  relative ">

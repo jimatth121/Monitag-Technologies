@@ -14,7 +14,7 @@ export function Header() {
     window.scrollTo({ top: 0 });
   }, [location]);
   return (
-    <Box className="bg-[rgba(255,255,255,0.5)] backdrop-blur-md text-[#048cfc] lg:px-32 md:py-3 fixed z-50 w-full">
+    <Box className="bg-[rgba(255,255,255,0.7)] backdrop-blur-md text-[#048cfc] lg:px-32 md:py-3 fixed z-50 w-full">
       <header className={classes.header}>
         <Group justify="space-between" h="100%">
           <NavLink to={"/"}>
@@ -33,7 +33,7 @@ export function Header() {
               className={({ isActive }) =>
                 isActive
                   ? `${classes.link} ${classes.linkActive}   `
-                  : `${classes.link}  font-PoppinsLight`
+                  : `${classes.link}  font-PoppinsSemiBold`
               }
             >
               ABOUT US
@@ -44,7 +44,7 @@ export function Header() {
               className={({ isActive }) =>
                 isActive
                   ? `${classes.link} ${classes.linkActive}   `
-                  : `${classes.link}  font-PoppinsLight`
+                  : `${classes.link}  font-PoppinsSemiBold`
               }
             >
               NEWS & RESOURCES
@@ -55,7 +55,7 @@ export function Header() {
               className={({ isActive }) =>
                 isActive
                   ? `${classes.link} ${classes.linkActive}   `
-                  : `${classes.link}  font-PoppinsLight`
+                  : `${classes.link}   font-PoppinsSemiBold`
               }
             >
               CAREERS
