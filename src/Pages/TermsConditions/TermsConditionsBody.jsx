@@ -10,9 +10,9 @@ const TermsConditionsBody = () => {
             INTRODUCTION
           </p>
           <p className="text14  font-PoppinsLight text-[#b9b9b9]">
-            Welcome to [MyMonitag.com] and [MonitagTechnologies.com]. By
-            accessing or using our websites, you agree to abide by these Terms
-            and Conditions. Please read them carefully.
+            Welcome to Monitag Technologies. By accessing or using our websites,
+            you agree to abide by these Terms and Conditions. Please read them
+            carefully.
           </p>
         </div>
 
@@ -27,8 +27,8 @@ const TermsConditionsBody = () => {
               minors with guardian consent.
             </li>
             <li className=" list-disc">
-              You agree to use our websites only for lawful purposes and in
-              compliance with these Terms.
+              You agree to use our websites and applications only for lawful
+              purposes and in compliance with these Terms.
             </li>
           </ol>
         </div>
@@ -150,8 +150,7 @@ const TermsConditionsBody = () => {
         <div>
           <p className=" font-PoppinsMedium text14 my-4 md:my-6">Contact Us</p>
           <p className="text14  font-PoppinsLight text-[#b9b9b9]">
-            For questions about these Terms, contact us at: Email:
-            support@mymonitag.com / support@monitagtechnologies.com
+            For questions, kindly contact us at support@monitagtechnologies.com
           </p>
         </div>
       </div>

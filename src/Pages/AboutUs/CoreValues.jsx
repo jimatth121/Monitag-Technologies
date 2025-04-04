@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import "./CoreValues.css";
+import { useNavigate } from "react-router-dom";
 const CoreValues = () => {
   const data = [
     {
@@ -28,6 +29,7 @@ const CoreValues = () => {
       body: "We create products and services that empower individuals and communities in urban and rural areas.",
     },
   ];
+  const navigate = useNavigate();
   return (
     <>
       <div className="lg:px-24 px-8 py-16">
@@ -50,9 +52,12 @@ const CoreValues = () => {
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full max-w-[800px]">
           <p className="font-PoppinsSemiBold text-white header-36">
-            Join our team of exceptional people making wealth accessible.
+            Join our team and shape the future of finance with us.
           </p>
-          <p className="mt-4 font-PoppinsLight text-white text2 flex justify-center items-center gap-2">
+          <p
+            onClick={() => navigate("/careers")}
+            className="mt-4 cursor-pointer font-PoppinsLight text-white text2 flex justify-center items-center gap-2"
+          >
             EXPLORE CAREERS
             <FaRegArrowAltCircleRight color="white" size={25} />
           </p>

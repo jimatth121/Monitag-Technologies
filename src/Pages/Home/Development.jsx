@@ -48,10 +48,7 @@ const Development = () => {
       title: "Compliance and Audit Trail",
       body: "Access reports and historical records to maintain transparency and accountability for compliance and audit purposes.",
     },
-    {
-      title: "Notifications and Receipts",
-      body: "Automate notifications and receipts for beneficiaries to ensure trust in every transaction.",
-    },
+
     {
       title: "API Integration",
       body: "Seamlessly integrate Monitag’s Bulk Disbursement platform into your systems with our API.",
@@ -125,21 +122,6 @@ const Development = () => {
             <TextCard key={index} data={data} />
           ))}
         </div>
-      </div>
-
-      <div className=" py-16">
-        <p className=" font-PoppinsSemiBold header2 text-center">OUR MISSION</p>
-        <p className=" font-PoppinsLight text1 text-center mt-2 text-[#b9b9b9]">
-          To create financial solutions that empower individuals and
-          communities, and drive sustainable growth.
-        </p>
-      </div>
-
-      <div className="">
-        <p className=" font-PoppinsSemiBold header2 text-center">OUR VISION</p>
-        <p className=" font-PoppinsLight text1 text-center mt-2 text-[#b9b9b9]">
-          To be the leading catalyst for financial innovation in Africa.
-        </p>
       </div>
     </div>
   );

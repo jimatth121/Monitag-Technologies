@@ -10,11 +10,11 @@ const PrivacyBody = () => {
             INTRODUCTION
           </p>
           <p className="text14  font-PoppinsLight text-[#b9b9b9]">
-            At [MyMonitag.com] and [MonitagTechnologies.com], we respect your
-            privacy and are committed to protecting your personal data. This
-            Privacy Policy explains how we collect, use, and safeguard
-            information in compliance with the Nigeria Data Protection
-            Regulation (NDPR) and applicable global standards like GDPR.
+            At Monitag Technologies we respect your privacy and are committed to
+            protecting your personal data. This Privacy Policy explains how we
+            collect, use, and safeguard information in compliance with the
+            Nigeria Data Protection Regulation (NDPR) and applicable global
+            standards like GDPR.
           </p>
         </div>
 
@@ -161,8 +161,7 @@ const PrivacyBody = () => {
         <div>
           <p className=" font-PoppinsMedium text14 my-4 md:my-6">Contact Us</p>
           <p className="text14  font-PoppinsLight text-[#b9b9b9]">
-            For privacy inquiries or to exercise your rights, contact us at:
-            Email: privacy@[mymonitag.com] / product@monitagtechnologies.com
+            For privacy inquiries, contact us at product@monitagtechnologies.com
           </p>
         </div>
       </div>
