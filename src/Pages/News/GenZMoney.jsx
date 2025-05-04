@@ -123,6 +123,15 @@ const GenZMoney = ({ setIsRead }) => {
         stakeholders can harness the power of Gen Zs to drive sustainable
         economic growth.
       </p>
+
+      <div
+        onClick={handleGoBack}
+        className="flex items-center mt-10 lg:mt-8 gap-2 cursor-pointer"
+      >
+        <FaRegArrowAltCircleLeft size={30} />
+
+        <button>BACK</button>
+      </div>
     </div>
   );
 };

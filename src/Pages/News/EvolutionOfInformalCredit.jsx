@@ -105,6 +105,14 @@ const EvolutionOfInformalCredit = ({ setIsRead }) => {
         authorities, more individuals will be empowered, contributing to the
         growth of the Nigerian economy.
       </p>
+      <div
+        onClick={handleGoBack}
+        className="flex items-center mt-10 lg:mt-8 gap-2 cursor-pointer"
+      >
+        <FaRegArrowAltCircleLeft size={30} />
+
+        <button>BACK</button>
+      </div>
     </div>
   );
 };

@@ -118,6 +118,14 @@ const BarriersToFinancialInclusion = ({ setIsRead }) => {
         significant progress has been made, continued efforts are necessary to
         ensure that all Nigerians can benefit from financial inclusion.
       </p>
+      <div
+        onClick={handleGoBack}
+        className="flex items-center mt-10 lg:mt-8 gap-2 cursor-pointer"
+      >
+        <FaRegArrowAltCircleLeft size={30} />
+
+        <button>BACK</button>
+      </div>
     </div>
   );
 };

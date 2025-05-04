@@ -86,6 +86,14 @@ const DigitalLoansNigeria = ({ setIsRead }) => {
         improve financial access and well-being, with few negative consequences
         for borrowers.
       </p>
+      <div
+        onClick={handleGoBack}
+        className="flex items-center mt-10 lg:mt-8 gap-2 cursor-pointer"
+      >
+        <FaRegArrowAltCircleLeft size={30} />
+
+        <button>BACK</button>
+      </div>
     </div>
   );
 };

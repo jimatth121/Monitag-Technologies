@@ -39,13 +39,13 @@ const Leadership = () => {
       <p className=" font-PoppinsRegular header2 font-bold mb-2 lg:mb-6">
         LEADERSHIP
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 lg:gap-2 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16 ">
         {data.slice(0, 3).map((data, index) => (
           <ProfileCard key={index} data={data} index={index} />
         ))}
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center it gap-10 lg:gap-20 mt-24 md:mt-[120px] ">
+      <div className="flex flex-col md:flex-row justify-center it gap-10 lg:gap-16 mt-10  lg:mt-20 ">
         {data.slice(3, 5).map((data, index) => (
           <ProfileCard key={index} data={data} />
         ))}
@@ -63,7 +63,7 @@ const ProfileCard = ({ data }) => {
         <img
           src={data.image}
           alt="image"
-          className="w-[500px] h-full object-cover  "
+          className="max-w-[500px] w-full h-[500px] object-cover  "
         />
         <p className="  font-PoppinsRegular text1 mt-3">{data.name}</p>
         <p className=" font-PoppinsLight text14">{data.role}</p>

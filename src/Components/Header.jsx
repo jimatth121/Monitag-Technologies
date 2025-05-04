@@ -99,7 +99,7 @@ export function Header() {
                   : `${classes.link2}  font-PoppinsLight`
               }
             >
-              Home
+              HOME
             </NavLink>
             <NavLink
               to="aboutus"

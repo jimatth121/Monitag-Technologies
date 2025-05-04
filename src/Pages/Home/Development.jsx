@@ -63,15 +63,15 @@ const Development = () => {
 
       <div className=" image-height ">
         <div className=" h-full  relative">
-          <div className="absolute lg:left-8 bottom-24 max-w-[600px] w-full px-3">
-            <p className=" font-PoppinsSemiBold header2 text-white ">
+          <div className="absolute   w-full h-full flex  items-center justify-center px-3">
+            <p className=" font-PoppinsSemiBold header2 text-white text-center ">
               Monitag Digital Wallet
             </p>
-            <p className=" font-PoppinsLight text1 text-white">
+            {/* <p className=" font-PoppinsLight text1 text-white">
               A secure all-in-one digital wallet empowering users to store
               funds, manage savings, make payments, and handle multiple
               currencies.
-            </p>
+            </p> */}
           </div>
           <img
             className="w-full h-full object-cover  hidden md:block "
@@ -85,23 +85,26 @@ const Development = () => {
           />
         </div>
       </div>
-      <div className=" ">
-        <div className="grid grid-cols-1 lg:grid-cols-3  py-8 px-3 lg:px-10  gap-x-8  bg-[#F6F8FA]">
+      <div className=" bg-[#F6F8FA] px-5 py-8 mb-10">
+        <div className="flex px-8 gap-4 font-semibold">
+          <p>Instant Peer-to-Peer Transfers</p> <p>|</p> <p>Comprehensive Bill Payments</p> <p>|</p> <p>Real-Time Insights</p>
+        </div>
+        {/* <div className="grid grid-cols-1 lg:grid-cols-3  py-8 px-3 lg:px-10  gap-x-8  bg-[#F6F8FA]">
           {data01.map((data, index) => (
             <TextCard key={index} data={data} />
           ))}
-        </div>
+        </div> */}
       </div>
       <div className="image-height ">
         <div className="w-full h-full relative">
-          <div className="absolute lg:left-8 bottom-24 max-w-[600px] w-full px-3">
+          <div className="absolute h-full flex justify-center items-center w-full px-10">
             <p className=" font-PoppinsSemiBold text-white header2">
               Bulk Disbursement
             </p>
-            <p className=" font-PoppinsLight text-white text1">
+            {/* <p className=" font-PoppinsLight text-white text1">
               A platform designed to facilitate large-scale disbursements to
               multiple beneficiaries at once.
-            </p>
+            </p> */}
           </div>
           <img
             className="w-full h-full hidden md:block object-cover"
@@ -116,13 +119,19 @@ const Development = () => {
         </div>
       </div>
 
-      <div className=" ">
+      <div className=" bg-[#F6F8FA] px-5 py-8 mb-10">
+        <div className="flex px-8 gap-4 font-semibold">
+          <p>Automated Payments</p> <p>|</p> <p>Batch Upload and Processing</p> <p>|</p> <p>Customisable Payment Structures</p>
+        </div>
+       
+      </div>
+      {/* <div className=" ">
         <div className="grid grid-cols-1 lg:grid-cols-3 py-10 md:py-14 px-4 lg:px-10  gap-x-8  bg-[#F6F8FA]">
           {data02.map((data, index) => (
             <TextCard key={index} data={data} />
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

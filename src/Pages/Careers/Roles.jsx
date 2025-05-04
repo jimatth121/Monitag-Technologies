@@ -2,6 +2,7 @@
 import { FaArrowRight } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
 import { useState } from "react";
+import EmpttyState from "../../assets/emptyState.svg";
 
 const Roles = () => {
   const data = [
@@ -18,11 +19,11 @@ const Roles = () => {
           <input
             type="email"
             placeholder="Search open roles"
-            className="w-full h-full px-4 py-1  border-gray-400 border-[2px]"
+            className="w-full h-full px-4 py-1  bg-[#EFEFEF] border-[#E1E1E1] border-[2px]"
           />
           <button
             onClick={() => setIsSearch((prev) => !prev)}
-            className="h-full border-[2px] border-gray-400 p-2 md:px-6 text-gray-400"
+            className="h-full border-[2px] border-[#E1E1E1] p-2 md:px-6 text-[#E1E1E1]"
           >
             <small className=" hidden md:block ">SEARCH</small>
             <CiSearch size={30} className=" md:hidden " />
@@ -32,7 +33,11 @@ const Roles = () => {
       {isSearch && (
         <div>
           {/* <p className=" font-PoppinsRegular header2 mt-10">AVAILABLE ROLES</p> */}
-          <p className="font-PoppinsRegular header2 mt-10">No Roles found</p>
+          <p className="font-PoppinsRegular header2 mt-10">AVAILABLE ROLES</p>
+          <div className="flex flex-col items-center justify-center mt-5 mb-5">
+          <img src={EmpttyState} alt="image" />
+<p className="text-center text-[#EFEFEF] font-semibold">No available roles, <br />  please check back later.</p>
+          </div>
           <div className="">
             {data.map((data, index) => (
               <RoleCard key={index} data={data} />

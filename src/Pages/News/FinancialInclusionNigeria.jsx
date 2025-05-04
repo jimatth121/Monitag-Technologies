@@ -115,6 +115,14 @@ const FinancialInclusionNigeria = ({ setIsRead }) => {
         sustained efforts, financial inclusion can serve as a catalyst for
         economic growth and improved livelihoods across Nigeria.
       </p>
+      <div
+        onClick={handleGoBack}
+        className="flex items-center mt-10 lg:mt-8 gap-2 cursor-pointer"
+      >
+        <FaRegArrowAltCircleLeft size={30} />
+
+        <button>BACK</button>
+      </div>
     </div>
   );
 };

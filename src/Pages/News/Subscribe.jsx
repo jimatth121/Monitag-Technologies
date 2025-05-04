@@ -14,13 +14,13 @@ const Subscribe = () => {
           Enter your email address below to get updates from us.
         </p>
 
-        <div className="max-w-[412px] w-full mx-auto h-[48px] flex gap-2 mt-4 lg:mt-6 px-3 lg:px-0">
+        <div  disabled className="max-w-[412px] w-full mx-auto h-[48px] flex gap-2 mt-4 lg:mt-6 px-3 lg:px-0 pointer-events-none opacity-50 select-none">
           <input
             type="email"
             placeholder="Enter email"
-            className="w-full h-full px-4 py-1"
+            className="w-full h-full px-4 py-1 bg-[#CDCFD1]"
           />
-          <button className="h-full border-[2px] border-white p-2 text-white">
+          <button className="h-full border-[2px] border-[#CDCFD1] p-2 text-[#CDCFD1]">
             SUBSCRIBE
           </button>
         </div>

@@ -118,6 +118,14 @@ const AccessToCreditNigeria = ({ setIsRead }) => {
         bridge the gap. Improving access to credit is essential for fostering
         entrepreneurship, economic growth, and financial stability.
       </p>
+      <div
+        onClick={handleGoBack}
+        className="flex items-center mt-10 lg:mt-8 gap-2 cursor-pointer"
+      >
+        <FaRegArrowAltCircleLeft size={30} />
+
+        <button>BACK</button>
+      </div>
     </div>
   );
 };
