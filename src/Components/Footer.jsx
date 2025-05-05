@@ -79,7 +79,8 @@ const Footer = () => {
             <img src={Facebook} alt="Facebook icon" />
           </a>
           <a
-            href="https://www.instagram.com/monitag.technologies?igsh=MTdneWUxcWh6ZDR6bw=="
+            href="https://www.instagram.com/monitagtechnologies/?igsh=MTdneWUxcWh6ZDR6b
+ w%3D%3D#"
             target="_blank"
             rel="noopener noreferrer"
           >

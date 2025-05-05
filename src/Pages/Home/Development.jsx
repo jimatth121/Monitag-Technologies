@@ -63,15 +63,15 @@ const Development = () => {
 
       <div className=" image-height ">
         <div className=" h-full  relative">
-          <div className="absolute   w-full h-full flex  items-center justify-center px-3">
-            <p className=" font-PoppinsSemiBold header2 text-white text-center ">
+          <div className="absolute   w-full h-full flex flex-col max-w-[650px] items-end justify-end pb-16 px-2 lg:px-10">
+            <p className=" px-2 font-PoppinsSemiBold header2 text-white text-start w-full  ">
               Monitag Digital Wallet
             </p>
-            {/* <p className=" font-PoppinsLight text1 text-white">
+            <p className=" px-2 font-PoppinsLight text1 text-white">
               A secure all-in-one digital wallet empowering users to store
               funds, manage savings, make payments, and handle multiple
               currencies.
-            </p> */}
+            </p>
           </div>
           <img
             className="w-full h-full object-cover  hidden md:block "
@@ -85,26 +85,30 @@ const Development = () => {
           />
         </div>
       </div>
-      <div className=" bg-[#F6F8FA] px-5 py-8 mb-10">
-        <div className="flex px-8 gap-4 font-semibold">
-          <p>Instant Peer-to-Peer Transfers</p> <p>|</p> <p>Comprehensive Bill Payments</p> <p>|</p> <p>Real-Time Insights</p>
+      <div className=" bg-[#F6F8FA] px-5 py-8 mb-10  ">
+        <div className="flex px-2 md:px-8 gap-2 md:gap-4 font-semibold flex-col md:flex-row max-w-[700px] w-full ">
+          <p>Instant Peer-to-Peer Transfers</p> <p className="hidden md:block">|</p> <p>Comprehensive Bill Payments</p> <p className="hidden md:block">|</p> <p>Real-Time Insights</p>
         </div>
         {/* <div className="grid grid-cols-1 lg:grid-cols-3  py-8 px-3 lg:px-10  gap-x-8  bg-[#F6F8FA]">
           {data01.map((data, index) => (
             <TextCard key={index} data={data} />
           ))}
         </div> */}
+        <p className="max-w-[700px] px-2 md:px-8 py-4"> 
+Your money, your freedom  effortlessly. With <span className="font-semibold"> comprehensive bill payments, instant peer-to-peer 
+transfers, and real-time insights,</span> Monitag is revolutionizing the way you manage your money. Say 
+goodbye to barriers and hello to a future of total financial freedom at your fingertips. </p>
       </div>
       <div className="image-height ">
         <div className="w-full h-full relative">
-          <div className="absolute h-full flex justify-center items-center w-full px-10">
-            <p className=" font-PoppinsSemiBold text-white header2">
+          <div className="absolute   w-full h-full flex flex-col max-w-[650px] items-end justify-end pb-16 px-2 lg:px-10">
+            <p className=" px-2 font-PoppinsSemiBold text-white header2 w-full text-start">
               Bulk Disbursement
             </p>
-            {/* <p className=" font-PoppinsLight text-white text1">
+            <p className=" px-2 font-PoppinsLight text-white text1 ">
               A platform designed to facilitate large-scale disbursements to
               multiple beneficiaries at once.
-            </p> */}
+            </p>
           </div>
           <img
             className="w-full h-full hidden md:block object-cover"
@@ -120,10 +124,12 @@ const Development = () => {
       </div>
 
       <div className=" bg-[#F6F8FA] px-5 py-8 mb-10">
-        <div className="flex px-8 gap-4 font-semibold">
-          <p>Automated Payments</p> <p>|</p> <p>Batch Upload and Processing</p> <p>|</p> <p>Customisable Payment Structures</p>
+        <div className="flex px-2 md:px-8 gap-2 md:gap-4 font-semibold flex-col md:flex-row max-w-[750px] w-full">
+          <p>Automated Payments</p> <p className="hidden md:block">|</p> <p>Batch Upload and Processing</p> <p className="hidden md:block">|</p> <p>Customisable Payment Structures</p>
         </div>
-       
+        <p  className="max-w-[750px] px-2 md:px-8 py-4">Scale your payouts with ease. Whether you’re paying teams or vendors, our powerful solutions offer 
+<span className="font-semibold"> customizable payment structures, automated payments, and batch upload and processing </span>
+abilities that are lightning-fast, so you can streamline every payout with ease.</p>
       </div>
       {/* <div className=" ">
         <div className="grid grid-cols-1 lg:grid-cols-3 py-10 md:py-14 px-4 lg:px-10  gap-x-8  bg-[#F6F8FA]">
@@ -132,6 +138,7 @@ const Development = () => {
           ))}
         </div>
       </div> */}
+    
     </div>
   );
 };
