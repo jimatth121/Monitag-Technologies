@@ -125,9 +125,13 @@ goodbye to barriers and hello to a future of total financial freedom at your fin
       </div>
 
       <div className=" bg-[#F6F8FA] px-5 py-8 mb-10 text-[19px] ">
-        <div className="flex px-2 md:px-8 gap-2 md:gap-4  flex-col md:flex-row w-full">
+        <div className="flex px-2 md:px-8 gap-2 md:gap-4 font-semibold  flex-col md:flex-row w-full">
           <p>Automated Payments</p> <p className="hidden md:block">|</p> <p>Batch Upload and Processing</p> <p className="hidden md:block">|</p> <p>Customisable Payment Structures</p>
         </div>
+        <p className="px-2">
+
+<hr className="mb-2 mt-1 md:hidden h-[3px] bg-black px-5" />
+        </p>
         <p  className=" px-2 md:px-8 py-4">Scale your payouts with ease. Whether you’re paying teams or vendors, our powerful solutions offer 
 <span className="font-semibold"> customizable payment structures, automated payments, and batch upload and processing </span>
 abilities that are lightning-fast, so you can streamline every payout with ease.</p>
