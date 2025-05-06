@@ -45,7 +45,7 @@ const Roles = () => {
           </div>
         </div>
       )}
-      <div className="mb-10 mt-10  md:mt-16 max-w-[700px] mx-auto justify-center  px-3">
+      <div className="mb-10 mt-10  md:mt-16 max-w-[800px] mx-auto justify-center  px-3">
         <p className=" font-PoppinsRegular text14 text-center ">
           At Monitag Technologies, we are redefining finance by creating
           innovative solutions that empower individuals and communities. Join
