@@ -95,7 +95,8 @@ const Development = () => {
           ))}
         </div> */}
         <p className=" px-2 md:px-8 py-4"> 
-Your money, your freedom  effortlessly. With <span className="font-semibold"> comprehensive bill payments, instant peer-to-peer 
+
+        Your money, your freedom — effortlessly With <span className="font-semibold"> comprehensive bill payments, instant peer-to-peer 
 transfers, and real-time insights,</span> Monitag is revolutionizing the way you manage your money. Say 
 goodbye to barriers and hello to a future of total financial freedom at your fingertips. </p>
       </div>
