@@ -86,7 +86,7 @@ const Development = () => {
         </div>
       </div>
       <div className=" bg-[#F6F8FA] px-5 py-8 mb-10  ">
-        <div className="flex px-2 md:px-8 gap-2 md:gap-4 font-semibold flex-col md:flex-row max-w-[700px] w-full ">
+        <div className="flex px-2 md:px-8 gap-2 md:gap-4  flex-col md:flex-row max-w-[900px] w-full ">
           <p>Instant Peer-to-Peer Transfers</p> <p className="hidden md:block">|</p> <p>Comprehensive Bill Payments</p> <p className="hidden md:block">|</p> <p>Real-Time Insights</p>
         </div>
         {/* <div className="grid grid-cols-1 lg:grid-cols-3  py-8 px-3 lg:px-10  gap-x-8  bg-[#F6F8FA]">
@@ -94,7 +94,7 @@ const Development = () => {
             <TextCard key={index} data={data} />
           ))}
         </div> */}
-        <p className="max-w-[700px] px-2 md:px-8 py-4"> 
+        <p className=" px-2 md:px-8 py-4"> 
 Your money, your freedom  effortlessly. With <span className="font-semibold"> comprehensive bill payments, instant peer-to-peer 
 transfers, and real-time insights,</span> Monitag is revolutionizing the way you manage your money. Say 
 goodbye to barriers and hello to a future of total financial freedom at your fingertips. </p>
@@ -124,10 +124,10 @@ goodbye to barriers and hello to a future of total financial freedom at your fin
       </div>
 
       <div className=" bg-[#F6F8FA] px-5 py-8 mb-10">
-        <div className="flex px-2 md:px-8 gap-2 md:gap-4 font-semibold flex-col md:flex-row max-w-[750px] w-full">
+        <div className="flex px-2 md:px-8 gap-2 md:gap-4  flex-col md:flex-row max-w-[900px] w-full">
           <p>Automated Payments</p> <p className="hidden md:block">|</p> <p>Batch Upload and Processing</p> <p className="hidden md:block">|</p> <p>Customisable Payment Structures</p>
         </div>
-        <p  className="max-w-[750px] px-2 md:px-8 py-4">Scale your payouts with ease. Whether you’re paying teams or vendors, our powerful solutions offer 
+        <p  className=" px-2 md:px-8 py-4">Scale your payouts with ease. Whether you’re paying teams or vendors, our powerful solutions offer 
 <span className="font-semibold"> customizable payment structures, automated payments, and batch upload and processing </span>
 abilities that are lightning-fast, so you can streamline every payout with ease.</p>
       </div>

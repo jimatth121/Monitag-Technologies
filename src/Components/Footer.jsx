@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
       <div className="mt-2">
         <p className=" font-PoppinsRegular text2 text-center text-[#b9b9b9] mb-2">
-          help@monitagtechnologies.com
+          info@monitagtechnologies.com
         </p>
         <p className=" font-PoppinsRegular text2 text-center text-[#b9b9b9]">
           +234 700 933 9339
