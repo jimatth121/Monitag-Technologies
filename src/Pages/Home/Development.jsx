@@ -86,7 +86,7 @@ const Development = () => {
         </div>
       </div>
       <div className=" bg-[#F6F8FA] px-5 py-8 mb-10 text-[19px]  ">
-        <div className="flex px-2 md:px-8 gap-2 md:gap-4  flex-col md:flex-row  w-full ">
+        <div className="flex px-2 md:px-8 gap-2 md:gap-4 font-semibold  flex-col md:flex-row  w-full ">
           <p>Instant Peer-to-Peer Transfers</p> <p className="hidden md:block">|</p> <p>Comprehensive Bill Payments</p> <p className="hidden md:block">|</p> <p>Real-Time Insights</p>
         </div>
         {/* <div className="grid grid-cols-1 lg:grid-cols-3  py-8 px-3 lg:px-10  gap-x-8  bg-[#F6F8FA]">
@@ -94,6 +94,10 @@ const Development = () => {
             <TextCard key={index} data={data} />
           ))}
         </div> */}
+           <p className="px-2">
+
+<hr className="mb-2 mt-3 md:hidden h-[3px] bg-black px-5" />
+        </p>
         <p className=" px-2 md:px-8 py-4 "> 
 
         Your money, your freedom — effortlessly. With <span className="font-semibold"> comprehensive bill payments, instant peer-to-peer 
@@ -130,7 +134,7 @@ goodbye to barriers and hello to a future of total financial freedom at your fin
         </div>
         <p className="px-2">
 
-<hr className="mb-2 mt-1 md:hidden h-[3px] bg-black px-5" />
+<hr className="mb-2 mt-3 md:hidden h-[3px] bg-black px-5" />
         </p>
         <p  className=" px-2 md:px-8 py-4">Scale your payouts with ease. Whether you’re paying teams or vendors, our powerful solutions offer 
 <span className="font-semibold"> customizable payment structures, automated payments, and batch upload and processing </span>
