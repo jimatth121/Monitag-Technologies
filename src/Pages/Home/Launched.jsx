@@ -14,7 +14,7 @@ const Launched = () => {
       </h1>
 
       <div className="image-height relative overflow-hidden">
-        <div className="absolute w-full flex flex-col h-full items-center justify-center  z-10 px-14">
+        <div className="absolute w-full flex flex-col h-full items-center justify-center  z-10 px-8 md:px-14">
           <img src={MiniLogo} alt="image" className="mb-3 w-[420px]"  />
 
           <div className=" gap-6  flex">
